@@ -17,4 +17,7 @@ training_data = training_data["age"].astype(int)
 #selecting data
 training_data = training_data[training_data['age'] > 18]
 
+#deleting a column
+del training_data['id']
+
 {% endhighlight %}

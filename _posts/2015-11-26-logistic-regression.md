@@ -9,7 +9,7 @@ We can use machine learning to classify data to one or more
 categories. Ex:- Weather a credit card transaction is a fraudulent one
 or not, Weather to give loan to a person or not.
 
-##### Classification of data into two groups
+#### Binomial Classification
 
 Problem Statement: Predict weather a student will get admission to a college or not based on
 their gre score and gpa score.
@@ -51,3 +51,15 @@ logistic_model.predict_proba(test_data[['gpa'.'gre']])[:,1]
 # second column is the probability of the event happening
 
 {% endhighlight %}
+
+
+#### Multinomial Classification
+A multinomial classification problem is nothing but a set of binomial
+classification problems.  
+
+ex:- We train our models to fit the probability of a ball being red by considering that
+balls of other colors as 0 and only that of red color as 1, we do this
+similarly for blue and green color.  
+To predict we run the features to each model and get the probabilities
+of the ball being red, blue and green. The color with the highest probability
+will be the classification of our model.

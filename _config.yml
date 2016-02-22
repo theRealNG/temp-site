@@ -30,7 +30,7 @@ navbar-links:
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: NG
-  email: "ngsaip7@domain.com"
+  email: "ngsaip7@gmail.com"
   facebook: ng.napster
   github: theRealNG
   linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
@@ -59,7 +59,7 @@ footer-links-active:
 timezone: "India/Hyderabad"
 markdown: kramdown
 highlighter: pygments
-permalink: /:year-:month-:day-:title
+permalink: /blog/:title
 paginate: 5
 
 # Default YAML values (more information on Jekyll's site)

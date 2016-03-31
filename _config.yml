@@ -58,7 +58,7 @@ google_analytics: "UA-33361079-2"
 # Output options (more information on Jekyll's site)
 timezone: "India/Hyderabad"
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /blog/:title
 paginate: 5
 

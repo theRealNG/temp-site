@@ -6,7 +6,6 @@ subtitle:   "Bisecting linear regression"
 
 {% highlight python %}
 import pandas as pd
-import seaborn as sns
 import numpy as np
 import matplotlib.pyplot as plt
 import math
@@ -71,7 +70,7 @@ print train.head(10)
     9     Bucks  
 
 
-Cleaning Nan Vlues in 'PopChg'
+Cleaning NaN Values in 'PopChg'
 
 
 {% highlight python %}
